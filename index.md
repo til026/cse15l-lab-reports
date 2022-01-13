@@ -1,5 +1,5 @@
 # main page
-## second page 
+## [Lab Report 1] (https://til026.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 [Link](https://til026.github.io/cse15l-lab-reports/extra.html)
 **Hello, world!**
 *This is the second sentence.*
