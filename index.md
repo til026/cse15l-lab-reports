@@ -11,11 +11,16 @@
 1. One
 2. Two
 3. Three
+
 ---
+
 `Inline code` with backticks
+
 ```
 # code block
 print '3 backticks or'
 print 'indent 4 spaces'
 ```
+
+![Image](https://pixabay.com/vectors/turkey-thanksgiving-poultry-holiday-1299176/.png)
 
