@@ -22,5 +22,5 @@ print '3 backticks or'
 print 'indent 4 spaces'
 ```
 
-![Image](https://pixabay.com/vectors/turkey-thanksgiving-poultry-holiday-1299176.png)
+![Image](https://en.wikipedia.org/wiki/Portable_Network_Graphics#/media/File:PNG_transparency_demonstration_1.png)
 
