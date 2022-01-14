@@ -6,7 +6,7 @@
 ![Image](vscode2.png)
 ---
 ## Step 2: Remotely Connecting
-1. Go to [https://sdacs.ucsd.edu/~icc/index.php]https://sdacs.ucsd.edu/~icc/index.php to look up for your cse15L sepcific account. You should reset your password to active this account.(**Remember don't change all of your passwords!**)
+1. Go to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) to look up for your cse15L sepcific account. You should reset your password to active this account.(**Remember don't change all of your passwords!**)
 2. Open a terminal in your VScode then type **ssh cs15lwi22ait@ieng6.ucsd.edu** in your terminal. *ait* here is specific to my account, you should change *ait* with your own username for cse15L.
 3. If it is your first login, you may asked whether you want to keep connecting. Answer **yes** for the question. If you don't see the question, just regard this step.
 4. Now your computer is successfully connected to the remote server and it should look like this.
