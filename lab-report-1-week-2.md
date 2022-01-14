@@ -40,7 +40,12 @@ class WhereAmI {
 ![Image](vscode5.png)
 3. Type ```scp WhereAmI.java cs15lwi22ait@ieng6.ucsd.edu:~/``` in your terminal, then login into your server and run javac and java command on your server to see what's happening:
 ![Image](vscode6.png)
-
 ## Step 5: Setting an SSH Key
-
+When setup the ssh key in order to make it easier to operate between the client and the server without using password.
+1. type ```ssh-keygen``` in your terminal, enter the file to save it, and enter the passphrase you want, you can set the passprahse easier so that you can operate conveniently.
+![Image](vscode7.png)
+This created two new files on your system; the private key (in a file **id_rsa**) and the public key (in a file **id_rsa.pub**), stored in the .ssh directory on your computer.
+2. Now you need to copy the public key to the .ssh directory of your user account on the server.
+![Image](vscode7.png)
+We can see that no password needed when trying to login in after seting a passphrase
 ## Step 6: Optimizing Remote Running
