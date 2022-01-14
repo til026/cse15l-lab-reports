@@ -46,6 +46,6 @@ When setup the ssh key in order to make it easier to operate between the client 
 ![Image](vscode7.png)
 This created two new files on your system; the private key (in a file **id_rsa**) and the public key (in a file **id_rsa.pub**), stored in the .ssh directory on your computer.
 2. Now you need to copy the public key to the .ssh directory of your user account on the server.
-![Image](vscode7.png)
+![Image](vscode8.png)
 We can see that no password needed when trying to login in after seting a passphrase
 ## Step 6: Optimizing Remote Running
