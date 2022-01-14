@@ -49,3 +49,9 @@ This created two new files on your system; the private key (in a file **id_rsa**
 ![Image](vscode8.png)
 We can see that no password needed when trying to login in after seting a passphrase
 ## Step 6: Optimizing Remote Running
+There are two ways that you can run your command more pleasantly
+1. You can quote you want to run directly after the **ssh** command so that it can run directly on your server.
+2. You can use semicolons to run multiple commands on the same line.
+
+By combining these two tips, I can compile and run *WhereAmI.java* directly on server without login to it.
+![Image](vscode9.png)
