@@ -15,15 +15,15 @@
 You search some commands on the internet and type it into your terminal.
 Here's the commands I tried:
 
-```ls```
+```ls``` lists files in the current dictionary
 
-```ls -a```
+```ls -a``` shows files start with ```.``` comapres to ```ls```
 
-```cd```
+```cd``` which can change the dictionary
 
-```cd ~```
+```cd ~``` 
 
-```pwd```
+```pwd``` prints working dictionary
 
 Here's the result:
 ![Image](vscode4.png)
