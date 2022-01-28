@@ -1,5 +1,5 @@
 # MarkdownParseTest
-## Code Change 1: Fix when no bracket or parenthesis in file
+## Code Change 1: Fix when no bracket or parenthesis 
 ![Image](change1.png)
 Here's the test leading the change:[failure inducing input 1](https://github.com/til026/cse15l-lab-reports/edit/main/failure-inducing-input1.md)
 
@@ -8,7 +8,7 @@ Running the original file outputs this:
 
 Bug in original file is that it will breakdown if there's no bracket or parenthesis as the method ```indexof()``` will output ```-1``` in the while loop.
 
-I created a testfile that doesn't contain any bracket or parenthesis but with only a title, it corrected shows the symptom that throw a ```StringIndexOutOfBoundsException```
+I created a testfile that doesn't contain any bracket or parenthesis but with only a title, it correctly shows the symptom that throw a ```StringIndexOutOfBoundsException```
 
 After changing the code, the output is ```[]```, correct.
 ## Code Change 2: Fix printing images and non-link with text between brackets and parenthesis
@@ -31,7 +31,7 @@ Here's the test leading the change: [failure inducing input 3](https://github.co
 Running the original file outputs this:
 ![Image](output3.png)
 
-Bug in last version of file is that it will nisunderstand a link with ```]``` in the link's name as a fake link, thus not printing it.
+Bug in last version of file is that it will misunderstand a link with ```]``` in the link's name as a fake link, thus not printing it.
 
 I created a testfile that contains a real link ```[canvas[]link](www.canvas.com)``` which will be regarded as a fake link thus not being printed. It prints the false output ```[]``` as I expected.
 
