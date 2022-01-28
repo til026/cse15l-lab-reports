@@ -19,9 +19,9 @@ Here's the commands I tried:
 
 ```ls -a``` shows files start with ```.``` comapres to ```ls```
 
-```cd``` change dictionary to the home directory
+```cd``` changes dictionary
 
-```cd ~``` change directory to the home directory, same as ```cd```
+```cd ~``` changes directory to the home directory
 
 ```pwd``` prints working dictionary
 
