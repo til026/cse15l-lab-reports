@@ -8,7 +8,9 @@ Running the original file outputs this:
 
 Bug in original file is that it will breakdown if there's no bracket or parenthesis as the method ```indexof()``` will output ```-1``` in the while loop.
 
-I created a testfile that doesn't contain any bracket or parenthesis but with only a title, it correctly shows the symptom that throw a ```StringIndexOutOfBoundsException```
+I created a testfile that doesn't contain any bracket or parenthesis but with only a title, it correctly shows the symptom that throw a ```StringIndexOutOfBoundsException```.
+
+The adding line allows me to break the while loop without ```StringIndexOutOfBoundsException``` if there's no bracket and parenthesis.
 
 After changing the code, the output is ```[]```, correct.
 ## Code Change 2: Fix printing images and non-link with text between brackets and parenthesis
@@ -21,7 +23,7 @@ Running the original file outputs this:
 Bug in last version of file is that it cannot distinguish image from links, and it cannot distinguish those fake links with some texts between ```]``` and ```(```.
 
 I created a testfile that contains a image and a fake link with some texts in between 
-```]``` and ```(```, it prints the false output as I expected.
+```]``` and ```(```, it prints the false output as I expected. 
 
 After changing the code, the output is ```[]```, correct.
 ## Code Change 3: Fix link with "]" in link's name
