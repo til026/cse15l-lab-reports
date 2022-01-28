@@ -14,13 +14,17 @@
 ## Step 3: Trying Some Commands
 You search some commands on the internet and type it into your terminal.
 Here's the commands I tried:
-```
-ls
-ls -a
-cd
-cd ~
-pwd
-```
+
+```ls```
+
+```ls -a```
+
+```cd```
+
+```cd ~```
+
+```pwd```
+
 Here's the result:
 ![Image](vscode4.png)
 ## Step 4: Moving Files with scp
