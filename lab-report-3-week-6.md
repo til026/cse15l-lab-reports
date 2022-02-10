@@ -1,6 +1,7 @@
 # Streamlining ssh Configuration
 ## Editing ```.ssh/config``` file through vscode
 ![Image](config.png)
+
 Change my alias' name to elias
 ## ```ssh``` command login with new alias name
 ![Image](ssh.png)
